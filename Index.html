@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Pagina Calcular</title>
+</head>
+<body onload="myFunction()" style="margin:0;">
+<div id="loader"></div>
+    <div style="display:none;"  id="myDiv">
+        <button onclick="location.href='file:///C:/Users/yilw2/Desktop/pagina%20calcualr/Practiaca-7-Intento1/Practica7-Pagina-Calcular-master/Calculadora/Practica4_Calculadora-master/calculadora.html';">Calcudora</button>
+        <button onclick="location.href='file:///C:/Users/yilw2/Desktop/pagina%20calcualr/Practiaca-7-Intento1/Practica7-Pagina-Calcular-master/Analisi%20de%20text/MOOC_html_mod6-strings_iteradores_regex_entrega-master/index.html';">Analisi de text</button>
+        <button onclick="location.href='file:///C:/Users/yilw2/Desktop/pagina%20calcualr/Practiaca-7-Intento1/Practica7-Pagina-Calcular-master/Pelicula/Practica5_Peliculas_Xavier--master/index.html';">Peliculas</button>
+      </div>
+
+      <script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1500);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+</body>
+</html>
